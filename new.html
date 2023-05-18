@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-type" content="text/html">
+    <meta name="description" content="Dkart, free online shopping delivary">
+    <title>Dkart.com</title>
+</head>
+<body>
+    <details>
+        <summary>HTML</summary>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, asperiores provident? Dicta, commodi voluptas ducimus autem accusantium quam recusandae quaerat optio delectus dolore nam enim distinctio laudantium sint dolores. Rem voluptate consequuntur cupiditate dignissimos delectus, itaque asperiores odit impedit dicta tenetur, consequatur adipisci animi earum modi reiciendis beatae quam ipsum obcaecati eum maxime, ut iure quidem magnam nemo. In harum eligendi rerum sit, tempora dolorum ut expedita molestias officiis minima culpa pariatur maiores numquam nulla totam doloremque modi ratione voluptas corporis asperiores ab quas eum unde. Ut, id. Quasi exercitationem sint libero cumque minus debitis voluptas velit rerum ducimus! Fugiat?
+        </p>
+    </details>
+    <article>
+        <h2>Google History</h2>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores tenetur labore, culpa illo voluptatem sint aperiam nemo animi aspernatur blanditiis neque quos possimus architecto assumenda dolorem ex quo iste unde!
+        </p>
+    </article>
+    <article>
+        <h2>Welcome to Google</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repellendus tenetur id consequatur veritatis? Expedita dolorum est ratione quibusdam architecto autem suscipit a natus voluptas voluptate cupiditate aperiam exercitationem incidunt, distinctio alias. Laborum ipsum, illum optio officiis odio, expedita atque accusamus numquam quos molestias aperiam tenetur nemo magni voluptate a.
+        </p>
+    </article>
+    <form action="http://localhost:8080">
+       <fieldset>
+            <legend>Personal Details</legend>
+            <table border="0">
+                <tr>
+                    <td><label for="t1">Name</label></td>
+                    <td><input type="text" id="t1" tabindex="1" name="personname" autofocus="autofocus" pattern="^[A-Za-z]*$" required="required"><br></td>
+                </tr> 
+                <tr>
+                    <td><label for="t2">Landline</label></td>
+                    <td><input type="text" id="t2" tabindex="3" name="landline" required="required"></td>
+                </tr>
+                <tr>
+                    <td><label for="t3">Mobile</label></td>
+                    <td><input type="text" id="t3" tabindex="2" name="mobile" required="required" pattern="^[789]\d{9}$"><br></td>
+                </tr>
+                <tr>
+                    <td><label for="t4">Email</label></td>
+                    <td><input type="text" id="t4" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"><br></td>
+                </tr>
+                <tr>
+                    <td><label for="t5">Attachment</label></td>
+                    <td><input type="file" id="t5" multiple="multiple"><br></td>
+                </tr> 
+                <tr>
+                    <td><label for="t6">Age</label></td>
+                    <td><input type="number" id="t6" min="18" max="60"><br></td>
+                </tr>
+                <tr>
+                    <td><label for="t7">Amount</label></td>
+                    <td><input type="number" id="t7" min="1000" max="10000" step="100"><br></td>
+                </tr>
+                <tr>
+                    <td>Search</td>
+                    <td><input type="search" list="list1"><br></td>
+                </tr>
+                 <datalist id="list1">
+                    <option>Java</option>
+                    <option>Php</option>
+                    <option>Python</option>
+                    <option>Anguler</option>
+                    <option>Javascript</option>
+                    <option>HTML,CSS</option>
+                    <option>Note js</option>
+                </datalist>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Work Exprience</legend>
+            <table border="0">
+                <tr>
+                    <td><label for="t8">Work Exprience</label></td>
+                    <td><input type="text" name="workexprience" id="t8"></td><br>
+                </tr>
+                <tr>
+                    <td><label for="t9">Company Name</label></td>
+                    <td><input type="text" name="companyname" id="t9"></td><br>
+                </tr>
+                <tr>
+                    <td><label for="t10">Job</label></td>
+                    <td><input type="text" name="job" id="t10"></td><br>
+                </tr>
+                <tr>
+                    <td><label for="text1">Address</label></td>
+                    <td><textarea name="address" id="text1" cols="20" rows="5"></textarea></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Payment Details</legend>
+            <table>
+                <tr>
+                    <td><label for="t11">Bank</label></td>
+                    <td>
+                        <select name="bank" id="d1">
+                            <option value="sbi">State Bank of India</option>
+                            <option value="icicibank">ICICI Bank</option>
+                            <option value="pnb">Panjab Bank of India</option>
+                            <option value="hdfcbank">HDFC Bank</option>
+                            <option value="andhrabank">Andhra Bank</option>
+                            <option value="ucobank">UCO Bank</option>
+                        </select>
+                </td><br>
+                </tr>
+                
+            </table>
+        </fieldset>
+       <input type="submit">
+    </form>
+    
+</body>
+</html>
